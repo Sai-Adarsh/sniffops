@@ -32,7 +32,7 @@ func MemoryFunction() {
 	fmt.Printf("memory cached: %d bytes\n", memory.Cached)
 	fmt.Printf("memory free: %d bytes\n\n", memory.Free)
 
-	file, err := os.OpenFile("memory.csv", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
+	file, err := os.OpenFile("./src/media/memory.csv", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
 		fmt.Printf("failed to open file: %d", err)
 	}
@@ -55,7 +55,7 @@ func MemoryFunction() {
 
 // This func must be Exported, Capitalized, and comment added.
 func MemoryHeartBeat() {
-	for range time.Tick(time.Millisecond * 500) {
+	for range time.Tick(time.Millisecond * 1000) {
 		MemoryFunction()
 	}
 }

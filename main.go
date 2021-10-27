@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	memObj.MemoryHeartBeat()
+	memObj.CpuHeartBeat()
 	time.Sleep(time.Millisecond * 1000)
 }
