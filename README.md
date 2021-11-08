@@ -59,3 +59,6 @@
 ### Current binaries:
   - [x] Linux
   - [ ] Windows
+
+### Authors
+* Sai Adarsh S
