@@ -37,6 +37,10 @@
   cd sniffops/server
   make server-stream
 ```
+### Deliverables :
+  - [x] Logging & Monitor
+  - [x] Stream logs to server
+  - [ ] Real-time forecasting
 
 ### Current binaries:
   - [x] Linux
