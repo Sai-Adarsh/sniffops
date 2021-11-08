@@ -45,7 +45,7 @@
 
 
 ### Deliverables :
-  - [x] Logging & Monitor
+  - [x] Logging & monitoring
   - [x] Stream logs to server
   - [ ] Real-time forecasting
 
