@@ -39,7 +39,7 @@
 ```
 
 <p align="center">
-  <img src="client/src/media/screenshot.png" height=300>
+  <img src="client/src/media/screenshot.png" height="20%">
 </p>
 
 
