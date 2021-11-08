@@ -43,6 +43,13 @@
 </p>
 
 
+### Current metrics:
+  - [x] CPU
+  - [x] Memory
+  - [ ] Loadavg
+  - [ ] Uptime
+  - [ ] Network
+  - [ ] Disk I/O
 
 ### Deliverables :
   - [x] Logging & monitoring
