@@ -37,6 +37,13 @@
   cd sniffops/server
   make server-stream
 ```
+
+<p align="center">
+  <img src="client/src/media/screenshot.png" height=300>
+</p>
+
+
+
 ### Deliverables :
   - [x] Logging & Monitor
   - [x] Stream logs to server
