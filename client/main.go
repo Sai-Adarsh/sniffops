@@ -5,5 +5,7 @@ import (
 )
 
 func main() {
+
 	memObj.CpuHeartBeat()
+	memObj.MemoryHeartBeat()
 }
