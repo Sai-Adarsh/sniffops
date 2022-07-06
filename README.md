@@ -1,5 +1,5 @@
 ### SniffOps
-⛅ High-performance agent to stream OS metrics to gRPC server and perform time series forecasting
+High-performance agent to stream OS metrics to gRPC server and perform time series forecasting
 
 ### Setup client
 ```sh
