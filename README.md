@@ -1,39 +1,39 @@
-### SniffOps
-High-performance agent to stream OS metrics to gRPC server and perform time series forecasting
+## SniffOps
+A high-performance agent for streaming OS metrics to a gRPC server and performing time series forecasting.
 
-### Setup client
+### Setup Client
 ```sh
   git clone https://github.com/Sai-Adarsh/sniffops
   cd sniffops/client
   make install
 ```
 
-### Setup server
-```sh
+### Setup Server
+```bash
   cd sniffops/server
   make install
 ```
 
-### Logging client
-```sh
+### Logging Client
+```bash
   cd sniffops/client
   make run
 ```
 
-### Stop logging server
-```sh
+### Stop Logging Server
+```bash
   cd sniffops/server
   make stop
 ```
 
-### Stream logs client
-```sh
+### Stream Logs from Client to Server
+```bash
   cd sniffops/client
   make client-stream
 ```
 
-### Stream logs server
-```sh
+### Stream Logs from Server to Client
+```bash
   cd sniffops/server
   make server-stream
 ```
@@ -42,8 +42,7 @@ High-performance agent to stream OS metrics to gRPC server and perform time seri
   <img src="client/src/media/screenshot.png" height="20%">
 </p>
 
-
-### Current metrics:
+### Metrics
   - [x] CPU
   - [x] Memory
   - [ ] Loadavg
@@ -51,14 +50,11 @@ High-performance agent to stream OS metrics to gRPC server and perform time seri
   - [ ] Network
   - [ ] Disk I/O
 
-### Deliverables :
+### Deliverables
   - [x] Logging & monitoring
   - [x] Stream logs to server
   - [ ] Real-time forecasting
 
-### Current binaries:
+### Binaries
   - [x] Linux
   - [ ] Windows
-
-### Authors
-* Sai Adarsh S
